@@ -1,0 +1,17 @@
+account_id: '196241772369'
+deploy_target_bucket: syndicate-education-platform-custom-sandbox-artifacts-sbox01/15c0cefe/task02
+expiration: 2025-03-07 12:39:47.248582+00:00
+extended_prefix_mode: true
+iam_permissions_boundary: arn:aws:iam::196241772369:policy/eo_role_boundary
+project_path: C:\Users\komal_agarwalla\AWS\aws
+region: eu-central-1
+resources_prefix: cmtr-15c0cefe-
+tags:
+  run_id: JAP-09
+  run_type: stm
+  type: user
+  user_id: 15c0cefe
+temp_aws_access_key_id: ASIAS3MHLZ5IR62USTKH
+temp_aws_secret_access_key: BVOWQ9lFHyXxtM+eDFitEa+nDzabhKQ+Us6UcZYe
+temp_aws_session_token: IQoJb3JpZ2luX2VjEPz//////////wEaCXVzLWVhc3QtMSJHMEUCIENcCVdfNZ0Wnxm/58jDb8BQLnpvRVll/3UqLSAjY35SAiEAwL5S+rG2w3l5AqoOhNCxfdzKD79cSnIDuhX3Ro8rN0Yq2AIIRRABGgwxOTYyNDE3NzIzNjkiDPdBypta4rTjEPEh7yq1Ase0H1uqyr8xdA94EBn8jWdOJX39zjbCiEizx+gWJydFQnFtNNg3d/GpvKTPSOM/IJXT269ZwVHGlehVmdSA/aO+CBlIUUoI1X6k4oUeGxV1rWfYIfFVrrJWOmPQkEeR1knoSHySEWQ44C5VPlOyio6zZelUT4fx0K2I2TBUyS888B4h9dgxygtFp3Ei7pAZjtNuLhzEyNnt/t+OQfgCWqkkDv2/7u7A43cjZmPG6pJMyIbLkFwmWhK5Txu33fOxJ47S1ks4702j6O5Zew2XCoJkR4fU90gMKij6MSuQWi8JIoycu9Z/ow++VT6EOXv3ReG4qOPdoilk6xqi3jCyyeGIhpyZ9k8bmaMG+K2pW61E5uReKgcOST3Z9YCULY0y2365/rZH3hiurzy2tR3NcuV7fshHADDJuqu+BjqdAbiarV6XfsTV9QgorYMahvIE0SiDPjdyRe0DttEL6SXq58NIk4tfAQUbXMY+oi2wgYnCJ8wBDohNeMrTRQN/VktrkAdBWV2XE0emHlrWdBYV2/w+sQm+mnKoUmjAR8rQkrEUjwIqthX0gt/gIA02WtVbd1NxCHu/MiabWJarCvrRMPVbGOpvMjALYbsKYWRkdBGCJUpel26fN3/JKLg=
+use_temp_creds: false
