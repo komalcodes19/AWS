@@ -4,6 +4,8 @@ build_projects_mapping:
 lambdas:
   hello_world:
     runtime: java
+  api_handler:
+    runtime: java
 locks: {}
 events: []
 latest_deploy: {}
