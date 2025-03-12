@@ -12,7 +12,6 @@ import com.syndicate.deployment.annotations.environment.EnvironmentVariable;
 import com.syndicate.deployment.annotations.environment.EnvironmentVariables;
 import com.syndicate.deployment.annotations.lambda.LambdaHandler;
 import com.syndicate.deployment.model.RetentionSetting;
-
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
@@ -25,9 +24,11 @@ import java.util.UUID;
 		aliasName = "${lambdas_alias_name}",
 		logsExpiration = RetentionSetting.SYNDICATE_ALIASES_SPECIFIED
 )
+
 @EnvironmentVariables(value = {
 		@EnvironmentVariable(key = "target_table", value = "${target_table}")
 })
+
 public class ApiHandler implements RequestHandler<Map<String, Object>, Map<String, Object>> {
 
 	private static final String TABLE_NAME = System.getenv("target_table");
@@ -65,7 +66,6 @@ public class ApiHandler implements RequestHandler<Map<String, Object>, Map<Strin
 			response.put("event", item.asMap());
 
 			return response;
-
 		} catch (Exception e) {
 			context.getLogger().log("Error processing request: " + e.getMessage());
 

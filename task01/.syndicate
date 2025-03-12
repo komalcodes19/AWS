@@ -1,0 +1,70 @@
+name: task01
+build_projects_mapping:
+  java: jsrc/main/java
+lambdas:
+  hello_world:
+    runtime: java
+locks:
+  modification_lock:
+    last_modification_date: '2025-03-07T11:40:04Z'
+    is_locked: false
+    initiator: komal_agarwalla
+events:
+- operation: deploy
+  initiator: komal_agarwalla
+  bundle_name: task01_250307.170852
+  deploy_name: task01
+  time_start: '2025-03-07T17:09:36Z'
+  time_end: '2025-03-07T17:10:04Z'
+  duration_sec: 28.496
+  status: succeeded
+  rollback_on_error: false
+- operation: build
+  initiator: komal_agarwalla
+  bundle_name: task01_250307.170852
+  time_start: '2025-03-07T17:08:52Z'
+  time_end: '2025-03-07T17:09:22Z'
+  duration_sec: 30.4
+  status: succeeded
+- operation: upload
+  initiator: komal_agarwalla
+  bundle_name: task01_250307.170852
+  time_start: '2025-03-07T17:09:11Z'
+  time_end: '2025-03-07T17:09:22Z'
+  duration_sec: 11.187
+  status: succeeded
+- operation: package_meta
+  initiator: komal_agarwalla
+  bundle_name: task01_250307.170852
+  time_start: '2025-03-07T17:09:11Z'
+  time_end: '2025-03-07T17:09:11Z'
+  duration_sec: 0.009
+  status: succeeded
+- operation: assemble
+  initiator: komal_agarwalla
+  bundle_name: task01_250307.170852
+  time_start: '2025-03-07T17:08:54Z'
+  time_end: '2025-03-07T17:09:11Z'
+  duration_sec: 17.544
+  status: succeeded
+- operation: assemble_java_mvn
+  initiator: komal_agarwalla
+  bundle_name: task01_250307.170852
+  time_start: '2025-03-07T17:08:54Z'
+  time_end: '2025-03-07T17:09:11Z'
+  duration_sec: 17.536
+  status: succeeded
+- operation: test
+  initiator: komal_agarwalla
+  time_start: '2025-03-07T17:08:54Z'
+  time_end: '2025-03-07T17:08:54Z'
+  duration_sec: 0.001
+  status: succeeded
+latest_deploy:
+  initiator: komal_agarwalla
+  bundle_name: task01_250307.170852
+  deploy_name: task01
+  time_start: '2025-03-07T17:09:36Z'
+  time_end: '2025-03-07T17:10:04Z'
+  duration_sec: 28.496
+  is_succeeded: true
